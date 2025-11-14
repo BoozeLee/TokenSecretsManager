@@ -10,12 +10,12 @@ const octokit = process.env.GITHUB_TOKEN
 
 // Initialize Stripe
 const stripe = process.env.STRIPE_SECRET_KEY
-  ? new Stripe(process.env.STRIPE_SECRET_KEY, { apiVersion: "2024-04-10" })
+  ? new Stripe(process.env.STRIPE_SECRET_KEY, { apiVersion: "2024-04-10" as any })
   : null;
 
 // Configuration
-const GITHUB_USERNAME = "boozlee"; // Default username if token doesn't work
-const ORGANIZATION_NAME = "cprojecttalent"; // Organization name
+const GITHUB_USERNAME = "BoozeLee";
+const ORGANIZATION_NAME = "cProjectTalent";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // GitHub API: Get authenticated user profile
@@ -52,16 +52,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (!data) {
         // Return friendly default data
         res.json({
-          login: "boozlee",
+          login: "BoozeLee",
           name: "Booze Lee",
-          avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=boozlee",
-          bio: "Professional developer specializing in full-stack development, open source contributions, and innovative solutions. Based at Baker Street 221B.",
-          public_repos: 12,
-          followers: 50,
-          following: 30,
-          html_url: "https://github.com",
-          location: "Baker Street 221B",
-          email: "kikiaan@bakerstreeet221b.store",
+          avatar_url: "https://api.dicebear.com/7.x/avataaars/svg?seed=BoozeLee",
+          bio: "Distilling Code, Fermenting Futures — One Bug at a Time. I code like I brew: strong, bold, and with a kick that lingers. 47 projects and counting.",
+          public_repos: 47,
+          followers: 100,
+          following: 42,
+          html_url: "https://github.com/BoozeLee",
+          location: "Baker Street 21B",
+          email: "kiliaan@bakersteeet221b.store",
         });
       } else {
         res.json(data);
@@ -78,7 +78,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // GitHub API: Get user repositories
   app.get("/api/github/repos", async (req, res) => {
     try {
-      let data;
+      let data: any[] = [];
       
       if (process.env.GITHUB_TOKEN) {
         // Try authenticated request if token is available
@@ -121,7 +121,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       // Filter out forks by default
-      const repos = data.filter(repo => !repo.fork);
+      const repos = data.filter((repo: any) => !repo.fork);
       res.json(repos);
     } catch (error: any) {
       console.error("GitHub repos fetch error:", error);
@@ -139,14 +139,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(data);
     } catch (error: any) {
       console.error("GitHub organization fetch error:", error);
-      // Return empty response instead of error to gracefully handle missing org
+      // Return friendly defaults if org doesn't exist
       res.json({
-        login: ORGANIZATION_NAME,
+        login: "cProjectTalent",
         name: "c Project Talent",
-        avatar_url: "",
-        description: "Collaborative projects and organizational repositories",
-        public_repos: 0,
-        html_url: `https://github.com/${ORGANIZATION_NAME}`,
+        avatar_url: "https://api.dicebear.com/7.x/identicon/svg?seed=cProjectTalent",
+        description: "Turning raw talent into distilled genius — 0 to IPO in 47 projects or less. We don't hire resumes. We hire reboots.",
+        html_url: "https://github.com/cProjectTalent",
+        public_repos: 47,
+        followers: 47,
       });
     }
   });

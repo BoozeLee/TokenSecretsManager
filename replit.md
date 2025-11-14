@@ -2,7 +2,16 @@
 
 ## Overview
 
-This is a full-stack developer portfolio application showcasing GitHub repositories and projects with integrated monetization features. The application presents a professional public-facing website for "Booze Lee" (personal brand) and "c Project Talent" (organization), featuring GitHub integration, Stripe payment processing, and a clean, modern design system inspired by GitHub and contemporary developer portfolios.
+This is a full-stack developer portfolio application showcasing GitHub repositories and projects with integrated monetization features. The application presents a professional public-facing website for Kiliaan van Voorden (aka "Booze Lee") and "c Project Talent" organization, featuring GitHub integration, Stripe payment processing, and a clean, modern design system.
+
+**Personal Information:**
+- Name: Kiliaan van Voorden (Booze Lee)
+- Email: kiliaan@bakersteeet221b.store
+- GitHub: BoozeLee
+- Organization: cProjectTalent
+- Location: Baker Street 21B
+- Tagline: "Distilling Code, Fermenting Futures — One Bug at a Time"
+- Projects: 47 and counting
 
 ## User Preferences
 
@@ -146,9 +155,14 @@ Preferred communication style: Simple, everyday language.
 
 **Required Environment Variables**:
 - `DATABASE_URL` - PostgreSQL connection string (when database is enabled)
-- `GITHUB_TOKEN` - GitHub personal access token (optional, enhances API limits)
+- `GITHUB_TOKEN` - GitHub personal access token (optional, enhances API limits, falls back to public API)
 - `STRIPE_SECRET_KEY` - Stripe API secret key
 - `VITE_STRIPE_PUBLIC_KEY` - Stripe publishable key for frontend
+
+**Graceful Fallback Behavior**:
+- When `GITHUB_TOKEN` is not provided, the app uses GitHub's public API
+- If the configured username/organization doesn't exist on GitHub, friendly default data is returned
+- This ensures the portfolio displays correctly even in demo/testing environments
 
 **Configuration Files**:
 - `components.json` - shadcn/ui configuration

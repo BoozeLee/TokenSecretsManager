@@ -25,9 +25,9 @@ export function HeroSection({ user, isLoading }: HeroSectionProps) {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight" data-testid="text-hero-title">
-                Building the Future,{" "}
+                Distilling Code,{" "}
                 <span className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
-                  One Commit at a Time
+                  Fermenting Futures
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl" data-testid="text-hero-subtitle">
@@ -36,7 +36,7 @@ export function HeroSection({ user, isLoading }: HeroSectionProps) {
                 ) : user?.bio ? (
                   user.bio
                 ) : (
-                  "Professional developer specializing in full-stack development, open source contributions, and innovative solutions. Based at Baker Street 221B."
+                  "I code like I brew: strong, bold, and with a kick that lingers. 47 projects and counting. Dad said, 'Son, destiny isn't a bottle — it's the corkscrew.'"
                 )}
               </p>
             </div>
@@ -103,9 +103,9 @@ export function HeroSection({ user, isLoading }: HeroSectionProps) {
                 <Badge
                   className="absolute -top-3 -right-3 px-4 py-2 text-sm font-mono"
                   variant="default"
-                  data-testid="badge-221b"
+                  data-testid="badge-21b"
                 >
-                  221B
+                  21B
                 </Badge>
               </div>
             ) : (

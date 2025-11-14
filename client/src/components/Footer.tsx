@@ -23,11 +23,11 @@ export function Footer() {
                 Booze Lee
               </button>
               <p className="text-xs text-muted-foreground mt-1 font-mono">
-                Baker Street 221B
+                Baker Street 21B
               </p>
             </div>
             <p className="text-sm text-muted-foreground">
-              Building innovative solutions and contributing to open source
+              Distilling code, fermenting futures. 47 projects and counting.
             </p>
           </div>
 
@@ -97,7 +97,7 @@ export function Footer() {
                 data-testid="button-footer-github"
               >
                 <a
-                  href="https://github.com"
+                  href="https://github.com/BoozeLee"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -112,7 +112,7 @@ export function Footer() {
                 data-testid="button-footer-email"
               >
                 <a
-                  href="mailto:kikiaan@bakerstreeet221b.store"
+                  href="mailto:kiliaan@bakersteeet221b.store"
                   aria-label="Email"
                 >
                   <Mail className="w-4 h-4" />
@@ -157,7 +157,7 @@ export function Footer() {
               © {currentYear} Booze Lee. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground font-mono" data-testid="text-easter-egg">
-              "The game is afoot!" - 221B
+              "Destiny's like a locked door — pick it wisely." - Dad's wisdom, 21B
             </p>
           </div>
         </div>

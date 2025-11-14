@@ -19,7 +19,7 @@ export function ContactSection() {
   const [emailCopied, setEmailCopied] = useState(false);
   const { toast } = useToast();
 
-  const businessEmail = "kikiaan@bakerstreeet221b.store";
+  const businessEmail = "kiliaan@bakersteeet221b.store";
 
   const handleCopyEmail = async () => {
     try {
@@ -178,13 +178,13 @@ export function ContactSection() {
                     <div className="flex-1">
                       <p className="text-sm font-medium mb-1">GitHub</p>
                       <a
-                        href="https://github.com"
+                        href="https://github.com/BoozeLee"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-github"
                       >
-                        @boozlee
+                        @BoozeLee
                       </a>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ export function ContactSection() {
                     <div className="flex-1">
                       <p className="text-sm font-medium mb-1">Location</p>
                       <p className="text-sm text-muted-foreground" data-testid="text-location">
-                        Baker Street 221B
+                        Baker Street 21B
                       </p>
                     </div>
                   </div>
