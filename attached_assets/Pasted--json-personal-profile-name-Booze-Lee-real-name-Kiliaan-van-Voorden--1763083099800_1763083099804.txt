@@ -1,0 +1,67 @@
+```json
+{
+  "personal_profile": {
+    "name": "Booze Lee",
+    "real_name": "Kiliaan van Voorden",
+    "email": "kiliaan@bakerstreet21b.store",
+    "tagline": "Distilling Code, Fermenting Futures — One Mystery at a Time",
+    "github_handle": "BoozeLee",
+    "location": "Baker Street 21B (Where Code Meets Clues)",
+    "bio": "I code like I solve puzzles: with a twist, a shake, and a reveal that knocks you out. Dad said, 'Son, destiny’s like a locked door — pick it wisely.' So I cracked 47 projects. 42? Hitchhiker’s stole it for their galaxy gig. My yard’s inflatable, dreams aren’t. Pump needed before the plot thickens.",
+    "humor_snippets": [
+      "My code’s like my cocktails: smooth, potent, and occasionally on fire.",
+      "Debugging at dawn: because bugs don’t sleep, and neither do I.",
+      "Inflatable yard owner seeks sponsor for air supremacy. No hot air, please."
+    ],
+    "compliments": {
+      "xAI": "Grok’s wit is sharper than Sherlock’s deductions — elementary, my dear AI.",
+      "Perplexity": "Perplexity untangles queries faster than I untangle earbuds.",
+      "Anthropic": "Claude’s safety nets catch more falls than my bar tabs.",
+      "OpenAI": "ChatGPT crafted my bio; now it’s crafting my legacy.",
+      "President Trump": "Built empires in code taller than any wall — virtual ones, anyway.",
+      "Elon Musk": "Elon, Cybertruck + mystery = CyberSleuth. Let’s collaborate.",
+      "All-In Podcast": "Chamath, JCal, Sacks, Friedberg — the pod that bets big on underdogs like me."
+    },
+    "gratitude": "To friends & family: You’ve been my Watson through every case. Thanks for the backup when the game was afoot."
+  },
+  "organization_profile": {
+    "name": "Bakerstreet Project",
+    "handle": "BakerstreetProject",
+    "mission": "Unraveling tech mysteries, one project at a time — from clue to code to conquest.",
+    "logo_concept": "A magnifying glass over a circuit board, with '221B' etched in binary.",
+    "tagline": "We don’t chase bugs. We interrogate them.",
+    "projects_count": 47,
+    "why_47": "42 = Hitchhiker’s ultimate answer. 47 = Our ultimate unsolved case. Deduction complete.",
+    "sponsor_pitch": "Sponsor us: Your brand on our inflatable yard? We’ll dedicate the pump to you. Plus, invites to All-In afterparties (we’ll sleuth our way in).",
+    "core_team": [
+      {
+        "role": "Chief Sleuth Officer",
+        "name": "Booze Lee",
+        "superpower": "Turns hunches into hacks, coffee into clues"
+      },
+      {
+        "role": "VP of Enigmatic Engineering",
+        "name": "TBD (Sponsor-funded detective)",
+        "superpower": "Keeps secrets secure and servers spinning"
+      }
+    ]
+  },
+  "documents": {
+    "personal_readme": "README_BoozeLee.md",
+    "org_readme": "README_BakerstreetProject.md",
+    "sponsor_deck": "SPONSOR_DECK_47Projects.pdf",
+    "one_pager": "BoozeLee_OnePager.md",
+    "resume": "Resume_BoozeLee.json"
+  },
+  "files": [
+    {
+      "path": "README_BoozeLee.md",
+      "content": "# Booze Lee 🥃🔍\n\n> *\" elementary, my dear Watson: code is the new cocaine.\"* — Me, channeling Sherlock.\n\n![Booze Lee solving code](https://via.placeholder.com/800x300?text=Mystery+Code+Lab)\n\n## 🕵️ Who Am I?\n- **Name**: Kiliaan van Voorden (Booze Lee for the marquee appeal)\n- **Base**: Baker Street 21B — epicenter of enigmas and endpoints\n- **Email**: [kiliaan@bakerstreet21b.store](mailto:kiliaan@bakerstreet21b.store)\n\n## 🔥 47 Projects (42 Was Elementary)\n| # | Project | Status | Deduction Level |\n|---|--------|--------|-----------------|\n| 1 | AI Detective | Investigating | Moriarty |\n| 47 | Quantum Clue Vault | Locked | Holmesian |\n\n## ❤️ Shoutouts\n- **Family**: My Irregulars through thick and fog.\n- **Friends**: Shared the pipe (of data).\n- **Sponsors Wanted**: Pump up the volume. Or the yard.\n\n---\n*Yard inflatable. Mysteries not.*"
+    },
+    {
+      "path": "README_BakerstreetProject.md",
+      "content": "# Bakerstreet Project 🕵️‍♂️\n\n```ascii\n  _____\n /     \\\n|  🔍  |\n \\_____/\n  |   |\n  |___|\n```\n*221B: Where bits meet Baker Street.*\n\n## Mission\nSolve the unsolvable in tech. 47 projects. Infinite intrigue.\n\n## Why Sponsor?\n- Logo on our **inflatable yard**\n- All-In Podcast shoutouts (manifested)\n- Dad jokes as dividends\n\n## Contact\n[kiliaan@bakerstreet21b.store](mailto:kiliaan@bakerstreet21b.store)\n\n> *\"We build solutions worth deducing.\"*"
+    }
+  ]
+}
+```
