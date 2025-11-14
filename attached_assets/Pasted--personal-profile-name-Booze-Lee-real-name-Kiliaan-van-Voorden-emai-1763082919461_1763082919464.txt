@@ -1,0 +1,65 @@
+{
+  "personal_profile": {
+    "name": "Booze Lee",
+    "real_name": "Kiliaan van Voorden",
+    "email": "kiliaan@bakerstreet21b.store",
+    "tagline": "Distilling Code, Fermenting Futures — One Bug at a Time",
+    "github_handle": "BoozeLee",
+    "location": "Baker Street 21B (Sherlock’s drunk cousin lives here)",
+    "bio": "I code like I brew: strong, bold, and with a kick that lingers. Dad said, 'Son, destiny isn’t a bottle — it’s the corkscrew.' So I twisted fate and popped 47 projects. 42 was taken by Douglas Adams’ towel-waving nerds, so I went full proof: 47%. Inflatable yard? Already got one. Just need a pump before the HOA files a noise complaint on my dreams.",
+    "humor_snippets": [
+      "My resume is like my bar tab — long, impressive, and someone else is paying.",
+      "I don’t debug at 3 AM. The bugs debug *me*.",
+      "Yard’s inflatable. Ego’s not. Need sponsor for industrial-grade air pump."
+    ],
+    "compliments": {
+      "xAI": "Grok’s the only AI that gets my jokes without needing a blood-alcohol level.",
+      "Perplexity": "Perplexity? More like *Perfectplexity* — answers faster than my liver processes regret.",
+      "Anthropic": "Claude writes safer code than I write sober emails.",
+      "OpenAI": "ChatGPT once ghostwrote my Tinder bio. Still single. 10/10 service.",
+      "President Trump": "Built more walls in Docker than anyone — containers, not countries.",
+      "Elon Musk": "Elon, if you’re reading this: Cybertruck + distillery = CyberStill. DM me.",
+      "All-In Podcast": "Chamath, JCal, Sacks, Friedberg — taught me VC stands for 'Very Chill' (until the term sheet)."
+    },
+    "gratitude": "Shoutout to friends & family who believed in me when my only prototype was a half-working LED beer pong table. You carried the keg when I couldn’t carry the dream."
+  },
+  "organization_profile": {
+    "name": "c Project Talent",
+    "handle": "cProjectTalent",
+    "mission": "Turning raw talent into distilled genius — 0 to IPO in 47 projects or less.",
+    "logo_concept": "A lowercase 'c' shaped like a flask, bubbling with binary (1s and 0s as CO₂).",
+    "tagline": "We don’t hire resumes. We hire reboots.",
+    "projects_count": 47,
+    "why_47": "42 = Answer to Life (Hitchhiker’s). 47 = Answer to Funding. Math checks out.",
+    "sponsor_pitch": "Your logo on our inflatable yard? We’ll name the pump after you. Bonus: eternal bragging rights at All-In Summit afterparty.",
+    "core_team": [
+      {
+        "role": "Chief Booze Officer",
+        "name": "Booze Lee",
+        "superpower": "Turns coffee into commits, commits into cocktails"
+      },
+      {
+        "role": "VP of Inflatable Infrastructure",
+        "name": "TBD (Sponsor-provided pump operator)",
+        "superpower": "Keeps dreams afloat"
+      }
+    ]
+  },
+  "documents": {
+    "personal_readme": "README_BoozeLee.md",
+    "org_readme": "README_cProjectTalent.md",
+    "sponsor_deck": "SPONSOR_DECK_47Projects.pdf",
+    "one_pager": "BoozeLee_OnePager.md",
+    "resume": "Resume_BoozeLee.json"
+  },
+  "files": [
+    {
+      "path": "README_BoozeLee.md",
+      "content": "# Booze Lee 🥃💻\n\n> *\"I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 47 times.\"* — Me, probably.\n\n![Booze Lee brewing code](https://via.placeholder.com/800x300?text=Code+Distillery+In+Progress)\n\n## 🍺 Who Am I?\n- **Name**: Kiliaan van Voorden (but Booze Lee sounds cooler on a marquee)\n- **Base**: Baker Street 21B — where mysteries meet microservices\n- **Email**: [kiliaan@bakerstreet21b.store](mailto:kiliaan@bakerstreet21b.store)\n\n## 🔥 47 Projects (Because 42 Was Taken)\n| # | Project | Status | Joke Level |\n|---|--------|--------|------------|\n| 1 | AI Bartender | Pouring | Over 9000 |\n| 47 | Quantum Beer Fridge | Chilling | Schrödinger’s IPA |\n\n## ❤️ Shoutouts\n- **Family**: Carried me when I was deflated.\n- **Friends**: Refilled my cup (and my RAM).\n- **Sponsors Needed**: Send pump. Or Bitcoin. Or both.\n\n---\n*Inflatable yard not included. Pump sold separately.*"
+    },
+    {
+      "path": "README_cProjectTalent.md",
+      "content": "# c Project Talent 🍾\n\n```ascii\n   _____ \n  /     \\\n | () () |\n  \\  ^  /\n   |||||\n   |||||\n```\n*Lowercase 'c' — because ego doesn’t fit in memory.*\n\n## Mission\nDistill chaos into capital. 47 projects. 0 excuses.\n\n## Why Sponsor Us?\n- Your logo on our **inflatable yard**\n- Namedrop on All-In Podcast (we’ll manifest it)\n- Lifetime supply of dad jokes (non-transferable)\n\n## Contact\n[kiliaan@bakerstreet21b.store](mailto:kiliaan@bakerstreet21b.store)\n\n> *\"We don’t just build products. We build hangovers worth remembering.\"*"
+    }
+  ]
+}
